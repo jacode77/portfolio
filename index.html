@@ -4,37 +4,68 @@
   <head>
     <!-- all relevant to website but not shown in site -->
     <title>JACQUELINE | FULL STACK DEVELOPER</title>
-    <style>
-      * {
-        /* '*' means give this style to everything in this document */
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      div {
-        position: absolute; /* by default, all tags are block. absolute puts it in absolute position you advise, eg. 30% from the top */
-        top: 30%;
-        background-color: blue;
-        /* padding-left: 50px; padding adds space within the div box */
-        margin-left: 50px;
-      }
-
-      h1 {
-        color: indigo;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      p {
-        color: green;
-      }
-    </style>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <!-- all in the body will show on website -->
-    <div>
-      <!-- enables us to group elemments together -->
-      <h1>JACQUELINE COPE</h1>
-      <h2>FULL STACK DEVELOPER</h2>
-      <h3>SINGAPORE | SYD, AU | +66 6 3230 2778 | JT.COPE1@GMAIL.COM</h3>
-      <p>Hi, I'm Jacqui!</p>
-    </div>
+    <section class="about-us">
+      <!--same as div tag, but for specific section of site -->
+      <div>
+        <!-- enables us to group elemments together -->
+        <h1>JACQUELINE COPE</h1>
+        <h2>FULL STACK DEVELOPER</h2>
+        <h3>SINGAPORE | SYD, AU | +66 6 3230 2778 | JT.COPE1@GMAIL.COM</h3>
+        <p>Hi, I'm Jacqui!</p>
+      </div>
+    </section>
+    <section class="experience">
+      <h1>EXPERIENCE</h1>
+      <div>
+        <h2>ASSISTANT HUMAN RESOURCES MANAGER</h2>
+        <h3>CONRAD MALDIVES RANGALI ISLAND</h3>
+        <ul>
+          <li>Employee recognition & benefits</li>
+          <li>Payroll</li>
+          <li>Employee events</li>
+        </ul>
+      </div>
+      <div>
+        <h2>ASSISTANT HUMAN RESOURCES MANAGER</h2>
+        <h3>CONRAD MALDIVES RANGALI ISLAND</h3>
+        <ul>
+          <li>Employee recognition & benefits</li>
+          <li>Payroll</li>
+          <li>Employee events</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <!-- separate section -->
+      <h1>TRAVELS</h1>
+      <div>
+        <!-- separate div's for separate groupings -->
+        <h2>Australia | Hong Kong | Maldives | Bangkok</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453478.80065758305!2d152.71300552810746!3d-27.38186310901795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD!5e0!3m2!1sen!2sau!4v1634780463926!5m2!1sen!2sau"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div>
+        <h2>Australia | Hong Kong | Maldives | Bangkok</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453478.80065758305!2d152.71300552810746!3d-27.38186310901795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD!5e0!3m2!1sen!2sau!4v1634780463926!5m2!1sen!2sau"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
   </body>
 </html>
