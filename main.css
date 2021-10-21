@@ -1,0 +1,36 @@
+* {
+  /* '*' means give this style to everything in this document */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  min-height: 100vh;
+  background-color: yellowgreen;
+  margin-left: 270px;
+}
+
+.about-us div {
+  /* applied to the 'about-us class and the divs inside of it' */
+  position: absolute; /* by default, all tags are block. absolute puts it in absolute position you advise, eg. 30% from the top. Ignores all other elements */
+  top: 30%;
+  background-color: blue;
+  /* padding-left: 50px; padding adds space within the div box */
+  margin-left: 50px;
+}
+
+.experience div {
+  /*could apply this to each individual div, but requires more work */
+  margin-top: 50px;
+}
+
+h1 {
+  color: indigo;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  color: green;
+}
+
+.travels {
+}
